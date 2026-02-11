@@ -2,12 +2,12 @@
 #include <LiquidCrystal_I2C.h>
 
 // --- กำหนด Hardware Pin ---
-#define PIN_LDR 34
-#define PIN_VR 35
-#define PIN_RELAY 25
-#define PIN_MOTOR 26
-#define PIN_SW_START 18
-#define PIN_SW_EMERGENCY 19
+#define PIN_LDR 0
+#define PIN_VR 2
+#define PIN_RELAY 4
+#define PIN_MOTOR 16
+#define PIN_SW_START 17
+#define PIN_SW_EMERGENCY 18
 
 // --- ตั้งค่า LCD (Address 0x27 หรือ 0x3F แล้วแต่รุ่น) ---
 LiquidCrystal_I2C lcd(0x27, 16, 2);
